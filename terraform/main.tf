@@ -1,5 +1,13 @@
 # Configure the Microsoft Azure Provider
 terraform {
+ backend "azurerm" {
+  storage_account_name = "__terraformstorageaccount__"
+  container_name       = "terraform"
+  key                  = "terraform.tfstate"
+  access_key  ="__storagekey__"
+  environment = "china"
+  }
+
   required_providers {
     azurerm = {
       source = "hashicorp/azurerm"
