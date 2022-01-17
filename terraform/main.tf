@@ -8,6 +8,12 @@ terraform {
   }
 }
 provider "azurerm" {
+  subscription_id = "__subid__"
+  client_id = "__clientid__"
+  client_secret = "__clientsecret__"
+  tenant_id = "__tenantid__"
+  environment = "china"
+  version = "=2.0.0"
   features {}
 }
 
