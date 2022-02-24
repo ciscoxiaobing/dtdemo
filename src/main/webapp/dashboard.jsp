@@ -23,7 +23,7 @@
                     <a href="home.jsp">Access Your Fare History</a>
                 </div>
                 <div class="panel-footer">
-                    <h5>Internal Use Only!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</h5>
+                    <h5>Internal Use Only!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-Welcome to our system.</h5>
                 </div>
              </div>
         </section>
